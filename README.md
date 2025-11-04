@@ -1,10 +1,13 @@
 This app is designed to interface with the Clockwise firmware and simulate its configuration structure over Bluetooth Low Energy (BLE).
 The BLE configuration layer is not yet implemented in the current Clockwise firmware this app serves primarily as a testing and development tool to validate the communication model, UUID mapping, and user interface for future firmware integration.
 
+
 Reference file: ClockwiseWebServer.h
 (Used as the source for defining configuration parameters, but currently only implements HTTP-based control. The BLE equivalent is under development.)
 
+
 The app mirrors the same configuration fields defined in the firmware’s HTTP interface, allowing developers to test how BLE-based configuration will behave once implemented in the ESP32 firmware.
+
 
 
 
@@ -27,7 +30,8 @@ The app mirrors the same configuration fields defined in the firmware’s HTTP i
 
 You can download and install the latest test build of the app directly from the repository:
 
-Download: ./app-release.apk
+Download: [Download app-debug.apk](https://github.com/chihebdev/LEDBLE/raw/master/app-debug.apk)
+
 
 To install manually:
 
